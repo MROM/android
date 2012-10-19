@@ -247,5 +247,7 @@
   <project path="device/motorola/olympus" name="MROM/android_device_motorola_olympus" />
   <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
 
+  <project path="device/htc/vivow" name="MROM/android_device_htc_vivow" />
+  <project path="device/bn/encore" name="MROM/android_device_bn_encore" />
 
 </manifest>
