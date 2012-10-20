@@ -251,9 +251,6 @@
   <project path="device/bn/encore" name="MROM/android_device_bn_encore" />
   <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" />
 
-  <project path="vendor/mrom" name="MROM/android_vendor_mrom">
-     <copyfile src="vendor/mrom/build/buildspec.mk" dest="build/buildspec.mk" />
-     <copyfile src="vendor/mrom/build/core/build_id.mk" dest="build/core/build_id.mk" />
-  </project>
+  <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
 
 </manifest>
