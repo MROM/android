@@ -1,5 +1,5 @@
 MROM
-===========
+====
 
 Introducing Atrix-MROM. Custom ROM built on top of CyanogenMOD.
 
