@@ -22,7 +22,6 @@
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -276,6 +275,7 @@
   <project path="android" name="MROM/android" />
   <project path="device/motorola/olympus" name="MROM/android_device_motorola_olympus" />
   <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="gingerbread" />
 
   <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
 </manifest>
