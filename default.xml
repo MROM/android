@@ -272,10 +272,14 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
-  <project path="android" name="CyanogenMod/android" />
-
   <!-- MROM Changes -->
+  <project path="android" name="MROM/android" />
   <project path="device/motorola/olympus" name="MROM/android_device_motorola_olympus" />
   <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
+
+  <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
+
+  <project path="packages/apps/MROM" name="MROM/mrom-apk" />
+  <project path="packages/apps/BatteryFix" name="ravilov/AtrixBatteryFix" revision="release" />
 
 </manifest>
