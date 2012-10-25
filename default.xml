@@ -11,7 +11,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/gingerbread"
+  <default revision="refs/heads/ics"
            remote="github"
            sync-j="4" />
 
@@ -278,5 +278,4 @@
   <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
 
   <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
-
 </manifest>
