@@ -279,7 +279,4 @@
 
   <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
 
-  <project path="packages/apps/MROM" name="MROM/mrom-apk" />
-  <project path="packages/apps/BatteryFix" name="ravilov/AtrixBatteryFix" revision="release" />
-
 </manifest>
