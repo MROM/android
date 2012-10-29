@@ -276,8 +276,8 @@
   <project path="android" name="MROM/android" />
   <!-- <project path="device/motorola/olympus" name="MROM/android_device_motorola_olympus" /> -->
   <!-- <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" /> -->
-  <project path="device/motorola/olympus" name="Atrix-Dev-Team/android_device_motorola_olympus" />
-  <project path="vendor/motorola" name="Atrix-Dev-Team/proprietary_vendor_motorola" />
+  <project path="device/motorola/olympus" name="Atrix-Dev-Team/android_device_motorola_olympus" revision="ics-new" />
+  <!-- <project path="vendor/motorola" name="Atrix-Dev-Team/proprietary_vendor_motorola" /> -->
 
   <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
 </manifest>
