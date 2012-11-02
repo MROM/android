@@ -159,7 +159,6 @@
   <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
@@ -275,6 +274,7 @@
   <!-- MROM Changes -->
   <project path="android" name="MROM/android" />
   <project path="vendor/cm" name="MROM/android_vendor_cm" />
+  <project path="frameworks/base" name="MROM/android_frameworks_base" />
   <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
   <project path="device/motorola/olympus" name="MROM/android_device_motorola_olympus" revision="ics-new" />
 
