@@ -275,7 +275,7 @@
   <project path="vendor/cm" name="MROM/android_vendor_cm" />
   <project path="frameworks/base" name="MROM/android_frameworks_base" />
   <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
-  <project path="device/motorola/olympus" name="MROM/android_device_motorola_olympus" revision="ics-new" />
+  <project path="device/motorola/olympus" name="MROM/android_device_motorola_olympus" />
 
   <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
   <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" />
