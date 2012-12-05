@@ -15,7 +15,7 @@ While I tried to maintain the main core small, size is not the main focus.
 
 Requirements:
 Clockworkmod or compatible recovery
-Atrix 4G with an unlocked bootloader
+Compatible MROM device
 
 Getting Started
 ---------------
@@ -31,5 +31,4 @@ Then to sync up:
 
     repo sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
 
