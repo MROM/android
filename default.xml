@@ -6,7 +6,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.cyanogenmod.com" />
+           review="review.cyanogenmod.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -19,6 +19,8 @@
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="android" name="MROM/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -333,17 +335,4 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
-
-  <!-- MROM Changes -->
-  <project path="android" name="MROM/android" />
-  <!--<project path="vendor/cm" name="MROM/android_vendor_cm" />-->
-  <!--<project path="frameworks/base" name="MROM/android_frameworks_base" />-->
-  <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
-  <project path="device/motorola/olympus" name="MROM/android_device_motorola_olympus" />
-
-  <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
-  <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" />
-  <project path="packages/apps/BatteryFix" name="ravilov/AtrixBatteryFix" revision="release" />
-  <project path="packages/apps/DockAudio" name="CyanogenMod/android_packages_apps_DockAudio" revision="gingerbread"/>
-
 </manifest>
