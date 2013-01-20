@@ -339,5 +339,5 @@
   <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
   <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" />
   <project path="device/bn/encore" name="MROM/android_device_bn_encore" />
-  <project path="kernel/bn/encore" name="CyanogenMod/android_kernel_bn_encore" revision="encore-omap3-3" />
+  <project path="kernel/bn/encore" name="MROM/android_kernel_bn_encore" revision="encore-omap3-3" />
 </manifest>
