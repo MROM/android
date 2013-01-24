@@ -341,6 +341,7 @@
   <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
   <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" />
   <project path="vendor/samsung/d2att" name="MROM/android_vendor_samsung_d2att" />
+  <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
   <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" />
 
 </manifest>
