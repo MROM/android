@@ -378,6 +378,7 @@
   <!-- MROM projects -->
 
   <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
+  <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" />
 
   <project path="vendor/samsung/d2att" name="MROM/android_vendor_samsung_d2att" />
   <project path="vendor/samsung/d2vzw" name="MROM/android_vendor_samsung_d2vzw" />
