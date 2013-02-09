@@ -376,7 +376,7 @@
 
   <!-- MROM projects -->
 
-  <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
+  <project path="vendor/mrom" name="MROM/android_vendor_mrom">
     <copyfile src="scripts/makeMROM.sh" dest="makeMROM.sh" />
   </project>
   <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" />
