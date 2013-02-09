@@ -20,7 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="MROM/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -377,6 +377,8 @@
   <!-- MROM projects -->
 
   <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
+    <copyfile src="scripts/makeMROM.sh" dest="makeMROM.sh" />
+  </project>
   <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" />
 
   <project path="vendor/samsung/d2att" name="MROM/android_vendor_samsung_d2att" />
