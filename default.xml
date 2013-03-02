@@ -265,7 +265,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="MROM/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -338,10 +338,13 @@
 
   <!-- MROM projects -->
 
-  <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
-  <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" />
-  <project path="vendor/samsung/d2att" name="MROM/android_vendor_samsung_d2att" />
-  <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
+  <project path="vendor/mrom" name="MROM/android_vendor_mrom">
+    <copyfile src="scripts/makeMROM.sh" dest="makeMROM.sh" />
+    <copyfile src="scripts/buildAll.sh" dest="buildAll.sh" />
+  </project>
   <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" />
+
+  <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" />
+  <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
 
 </manifest>
