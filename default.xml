@@ -251,7 +251,10 @@
   <project path="device/bn/encore" name="MROM/android_device_bn_encore" />
   <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" />
 
-  <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
+  <project path="vendor/mrom" name="MROM/android_vendor_mrom">
+    <copyfile src="scripts/makeMROM.sh" dest="makeMROM.sh" />
+    <copyfile src="scripts/buildAll.sh" dest="buildAll.sh" />
+  </project>
 
   <project path="packages/apps/MROM" name="MROM/mrom-apk" />
   <project path="packages/apps/BatteryFix" name="ravilov/AtrixBatteryFix" revision="release" />
