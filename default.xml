@@ -346,6 +346,5 @@
 
   <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" />
   <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
-  <project path="kernel/motorola/olympus" name="CyanogenMod-Atrix/android_kernel_motorola_olympus.git" />
 
 </manifest>
