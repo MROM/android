@@ -272,16 +272,16 @@
 
   <!-- MROM Changes -->
   <project path="android" name="MROM/android" />
-  <project path="vendor/cm" name="MROM/android_vendor_cm">
-    <copyfile src="scripts/makeMROM.sh" dest="makeMROM.sh" />
-  </project>
+  <project path="vendor/cm" name="MROM/android_vendor_cm" />
 
   <project path="frameworks/base" name="MROM/android_frameworks_base" />
   <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
   <project path="device/motorola/olympus" name="MROM/android_device_motorola_olympus" />
   <project path="kernel/motorola/olympus" name="CyanogenMod-Atrix/android_kernel_motorola_olympus.git" revision="jellybean" />
 
-  <project path="vendor/mrom" name="MROM/android_vendor_mrom" />
+  <project path="vendor/mrom" name="MROM/android_vendor_mrom">
+    <copyfile src="scripts/makeMROM.sh" dest="makeMROM.sh" />
+  </project>
   <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" />
   <project path="packages/apps/BatteryFix" name="ravilov/AtrixBatteryFix" revision="release" />
   <project path="packages/apps/DockAudio" name="CyanogenMod/android_packages_apps_DockAudio" revision="gingerbread"/>
