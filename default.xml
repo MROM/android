@@ -270,6 +270,8 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
 
+  <project path="packages/apps/DockAudio" name="CyanogenMod/android_packages_apps_DockAudio" revision="gingerbread"/>
+
   <!-- MROM Changes -->
   <project path="android" name="MROM/android" />
   <project path="vendor/cm" name="MROM/android_vendor_cm" />
