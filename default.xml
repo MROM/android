@@ -379,7 +379,6 @@
 
   <!-- MROM projects -->
 
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" revision="jb-mr1" />
   <project path="vendor/mrom" name="MROM/android_vendor_mrom">
     <copyfile src="scripts/makeMROM.sh" dest="makeMROM.sh" />
     <copyfile src="scripts/buildAll.sh" dest="buildAll.sh" />
