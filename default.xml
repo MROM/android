@@ -393,6 +393,6 @@
 
   <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" />
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="MROM/linaro-2.6" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.6" name="MROM/linaro-4.6" revision="master" />
 
 </manifest>
