@@ -390,8 +390,8 @@
   <project path="vendor/samsung/d2spr" name="MROM/android_vendor_samsung_d2spr" />
   <project path="vendor/samsung/d2tmo" name="MROM/android_vendor_samsung_d2tmo" />
   <project path="vendor/samsung/d2-common" name="MROM/android_vendor_samsung_d2-common" />
-
   <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" />
+  <project path="vendor/motorola/olympus" name="MROM/android_vendor_motorola_olympus" />
 
   <project path="prebuilts/gcc/linux-x86/arm/linaro-4.6" name="MROM/linaro-4.6" revision="master" />
 
