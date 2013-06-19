@@ -449,11 +449,11 @@
 
   <remote  name="bitbucket" fetch="ssh://git@bitbucket.org" />
 
-  <project path="vendor/mrom" name="MROM/android_vendor_mrom">
+  <project path="vendor/mrom" name="MROM/android_vendor_mrom" remote="aokp" revision="cm-10.1">
     <copyfile src="scripts/makeMROM.sh" dest="makeMROM.sh" />
     <copyfile src="scripts/buildAll.sh" dest="buildAll.sh" />
   </project>
-  <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" />
+  <project path="packages/apps/MROM" name="MROM/mrom-apk" revision="gingerbread" remote="aokp" revision="cm-10.1" />
 
   <project path="device/bn/encore" name="MROM/android_device_bn_encore" remote="aokp" revision="jb-mr1" />
   <project path="vendor/bn/encore" name="MROM/android_vendor_bn_encore" remote="aokp" revision="cm-10.1" />
