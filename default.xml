@@ -272,7 +272,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/base" name="MROM/frameworks_base" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/base" name="MROM/android_frameworks_base" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -356,7 +356,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Settings" name="MROM/packages_apps_Settings" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="MROM/android_packages_apps_Settings" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
