@@ -449,7 +449,7 @@
 
   <remote  name="bitbucket" fetch="ssh://git@bitbucket.org" />
 
-  <project path="vendor/mrom" name="MROM/android_vendor_mrom" remote="aokp" revision="cm-10.1">
+  <project path="vendor/mrom" name="MROM/android_vendor_mrom" remote="aokp" revision="jb-mr1">
     <copyfile src="scripts/makeMROM.sh" dest="makeMROM.sh" />
     <copyfile src="scripts/buildAll.sh" dest="buildAll.sh" />
   </project>
