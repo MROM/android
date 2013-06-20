@@ -469,6 +469,7 @@
 
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="aokp" revision="cm-10.1" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="aokp" revision="cm-10.1" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="aokp" revision="cm-10.1" />
 
   <project path="prebuilts/gcc/linux-x86/arm/linaro-4.6" name="MROM/linaro-4.6" remote="aokp" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/linaro-4.7" name="MROM/linaro-4.7" remote="aokp" revision="master" />
